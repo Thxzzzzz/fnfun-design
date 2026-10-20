@@ -5,6 +5,7 @@ Public design documents for WeighBetter.
 | Document | Contents |
 |---|---|
 | [`style-guidelines.md`](style-guidelines.md) | Visual style rules and a review checklist |
+| [`style-guidelines.zh-CN.md`](style-guidelines.zh-CN.md) | 风格准则（简体中文，内容与英文版对应） |
 
 ## License
 
