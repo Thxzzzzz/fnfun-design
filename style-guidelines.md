@@ -8,8 +8,8 @@
 
 **It should feel like an object on a desk, something you can read clearly and almost touch, not a glowing screen.**
 
-- **Solid**: opaque surfaces with clear edges. Depth comes from strokes, color blocks and solid shadows, not from transparency or blur.
-- **Warm**: light, warm backgrounds. Accent colors lean warm and are used only for status and actions.
+- **Solid**: opaque content with clear edges. Depth comes mainly from strokes, color blocks and solid shadows. Transparency and blur aren't off-limits, but they stay restrained and in harmony with the whole; the design must never depend on them.
+- **Warm**: light, warm backgrounds. There is a single accent color, used only for status and actions.
 - **Grounded**: graphics borrow how an everyday object is read, or carry visible traces of being made by hand. Playfulness comes from "made by a person", not "lit up by a machine".
 - **Baseline**: weight and body fat are readable at a glance. Decoration never competes with the numbers.
 
@@ -17,13 +17,14 @@
 
 ### 2.1 Surfaces and depth
 
-- **Do**: use opaque surfaces, with clear edges between them: a stroke, a color difference, or a solid shadow with a consistent direction. Shadows can be hard offsets with no blur, or soft shadows that imitate a physical part raised or pressed in. Either way the light source stays consistent, and the shadow reads as "this piece sticks out" or "this piece is pressed down".
-- **Don't**: frosted glass, translucent layers, background blur, diffuse light blobs, outer glow, neon strokes.
-- **Test**: set every opacity to 100% and remove all blur and glow. Is the design's character still there? If not, it relies on glass and light, and it's off-direction.
+- **Do**: use opaque surfaces for content (cards, the main graphic, lists), with clear edges between them: a stroke, a color difference, or a solid shadow with a consistent direction. Shadows can be hard offsets with no blur, or soft shadows that imitate a physical part raised or pressed in. Either way the light source stays consistent, and the shadow reads as "this piece sticks out" or "this piece is pressed down".
+- **Allowed, with restraint**: glass, translucency and background blur on a few elements that float above the content, such as a Liquid Glass tab bar and top buttons following iOS 26 conventions. Restraint means using it sparingly and only on that floating layer. Harmony means its corners, strokes and shadows speak the same language as everything else, text stays clear when content shows through, and a theme without glass loses nothing when it's removed.
+- **Don't**: let glass and light play the lead: content cards or the main graphic made of glass, large translucent layers, diffuse light blobs, outer glow, neon strokes.
+- **Test**: set every opacity to 100% and remove all blur and glow. Is the design's character still there? If it is, and the glass only makes the floating layer feel lighter, that's restraint. If not, it relies on glass and light, and it's off-direction.
 
 ### 2.2 Color
 
-- **Do**: default to light, warm backgrounds (paper, cream, warm gray, light aluminum). Accent colors lean warm (orange, yellow), cover a small area, and appear only on status, anomalies and tappable actions.
+- **Do**: default to light, warm backgrounds (paper, cream, warm gray, light aluminum). There is a single accent color; it covers a small area and appears only on status, anomalies and tappable actions. Warm accents (orange, yellow) are the most common. A cool primary color also works as long as it harmonizes with the whole, such as Spectrum 2's blue, with orange stepping back to status.
 - **Allowed**: the colors an object metaphor naturally has. Paint the object in the colors it really comes in, even if they are more saturated than the theme or there are several of them. Playful directions may use saturated flat color blocks, as long as the background stays light and text contrast stays sufficient.
 - **Don't**: cold, serious combinations such as cool gray, desaturated palettes, or black-white-red. Dark backgrounds with neon, fluorescent or acid colors.
 - **Dark is not the default**: if a design must be dark, its character has to come from the graphic structure itself (a dot matrix, for example), never from glow.
@@ -74,8 +75,8 @@
 
 Go through these one by one when reviewing a new design:
 
-1. With transparency, blur and glow removed, is the design's character still there? (§2.1)
-2. Is the background light and warm? Are accents warm, and used only for status and actions? (§2.2)
+1. With transparency, blur and glow removed, is the design's character still there? Is any glass limited to a few floating elements and in harmony with the rest? (§2.1)
+2. Is the background light and warm? Is there a single accent, used only for status and actions? (§2.2)
 3. Are key numbers sans-serif, heavy or large enough, and above the minimum sizes? Neither hidden nor filling half the screen? (§2.3)
 4. Does the screen have one object or spatial metaphor as its only main graphic? Does the way it's read match the data? (§2.4)
 5. Does the object keep its own colors and materials? (§2.4)
